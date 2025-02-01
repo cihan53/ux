@@ -17,7 +17,7 @@ const generateUsers = () => {
       name: position,
       surname: surname,
       username: username,
-      email: `${username}@oobeya.io`,
+      email: `${username}@chy.com.tr`,
       shortName: position.slice(0, 2).toUpperCase(),
       enabled: faker.datatype.boolean(0.8),
       developer: faker.datatype.boolean(0.7),
