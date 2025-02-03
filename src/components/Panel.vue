@@ -1,5 +1,5 @@
 <script setup lang="ts">
-import LoadMask from "~/components/LoadMask.vue";
+import LoadMask from "./LoadMask.vue";
 
 const props = defineProps({
   loading: Boolean

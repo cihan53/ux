@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import {sub, format, isSameDay, type Duration} from 'date-fns'
-import DatePicker from "~/components/DatePicker.vue";
+import DatePicker from "../../../DatePicker.vue";
 // const { t } = useI18n();
 
 const props = defineProps<{

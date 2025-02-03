@@ -2,20 +2,20 @@
 import type { ProgressColor, ProgressAnimation } from '#ui/types'
 import type { StoreDefinition } from 'pinia';
 
-import UBadgeList from '~/components/BadgeList.vue'
-import UGrid from '~/components/UGrid.vue'
+import UBadgeList from './../../BadgeList.vue'
+import UGrid from './../../UGrid.vue'
 
 
 const StringFilter = defineAsyncComponent(() =>
-  import('~/components/data/table/filter-bar/StringFilter.vue')
+  import('./filter-bar/StringFilter.vue')
 )
 
 const SelectFilter = defineAsyncComponent(() =>
-  import('~/components/data/table/filter-bar/SelectFilter.vue')
+  import('./filter-bar/SelectFilter.vue')
 )
 
 const DatepickerFilter = defineAsyncComponent(() =>
-  import('~/components/data/table/filter-bar/DatePickerFilter.vue')
+  import('./filter-bar/DatePickerFilter.vue')
 )
 
 
