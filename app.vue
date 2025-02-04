@@ -26,13 +26,14 @@
 </template>
 <script setup lang="ts">
  
-import Panel from "~/components/Panel.vue";
-import Table from "~/components/data/table/Table.vue";
-import fakeUseData from "~~/data/users";
+import Panel from "./src/components/Panel.vue";
+import Table from "./src/components/data/table/Table.vue";
+import fakeUseData from "./data/users";
 const columns:any[]=[
   {
     key: 'name',
     label: 'Name',
+    resize: true,
     filter: {
       type: 'string',
       props: {
